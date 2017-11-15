@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- JavaScript -->
+	<script src="js/logic.js"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/styles.css">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="banner">
+
+  <img src="images/dal-logo.png" alt="dalhousie university logo">
+
+  <h1>Dalhousie Quick Collab</h1>
+</div>
+
+
+  <nav>
+    <ul>
+      <li><a href="#"><strong>EXIT</strong></a></li>
+    </ul>
+  </nav>
+
+ 
+
+
+  <div id="schedule-container">
+
+  <h2>Schedule</h2> 
+
+  <div class="time-column" id="time-labels">
+
+  	  <!-- Empty, top row, line break -->
+  	  <br>
+  	  <!-- Times -->
+      
+      <p> 8:00 </p>
+      <p> 9:00 </p>
+      <p> 10:00 </p>
+      <p> 11:00 </p>
+      <p> 12:00 </p>
+      <p> 13:00 </p>
+      <p> 14:00 </p>
+      <p> 15:00 </p>
+      <p> 16:00 </p>
+      <p> 17:00 </p>
+      <p> 18:00 </p>
+      <p> 19:00 </p>
+      <p> 20:00 </p>
+      <p> 21:00 </p>
+      <p> 22:00 </p>
+      <p> 23:00 </p>
+      <p> 24:00 </p>
+
+  </div>
+
+  <div class="time-column">
+
+      <h3>Monday</h3>
+
+  </div>
+
+  <div class="time-column">
+
+      <h3>Tuesday</h3>
+
+  </div>
+
+  <div class="time-column">
+
+      <h3>Wednesday</h3>
+
+  </div>
+
+  <div class="time-column">
+
+      <h3>Thursday</h3>
+
+  </div>
+
+  <div class="time-column" id="last-tc">
+
+      <h3>Friday</h3>
+
+  </div>
+</div>
+
+
+
+
+
+<div id="side-content">
+	<div id="students-container">
+		<h2> Students </h2>
+		<div id="student-list">
+			<ul>
+				<li><input onclick="toggleSchedule(this.parentNode.innerHTML)" type="checkbox" name="student1-schedulecheck" value="STD1Show">Matthew</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
